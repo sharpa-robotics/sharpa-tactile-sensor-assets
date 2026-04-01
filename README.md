@@ -4,7 +4,7 @@ Visualization tool for tactile sensor point clouds and normals.
 
 ## Data Format
 
-Each version directory (e.g. `Wave_1.3/`) should contain the following files:
+Each version directory (e.g. `wave_01/`) should contain the following files:
 
 | File | Shape | Description |
 |------|-------|-------------|
@@ -19,7 +19,7 @@ Each version directory (e.g. `Wave_1.3/`) should contain the following files:
 
 ```bash
 # Downsample for faster rendering (keep every N-th point along each axis)
-python script/visualize.py --path Wave_1.3 --down-sample 8
+python script/visualize.py --path wave_01 --down-sample 8
 ```
 
 ## Preview
