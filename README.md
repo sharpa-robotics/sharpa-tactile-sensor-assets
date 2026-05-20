@@ -2,7 +2,7 @@
 
 Visualization tool for tactile sensor point clouds and normals.
 
-## Data Format
+## 📥 Data Format
 
 Each version directory (e.g. `wave_01/`) should contain the following files:
 
@@ -15,13 +15,13 @@ Each version directory (e.g. `wave_01/`) should contain the following files:
 | `tactileSensor_4F.obj` | (240, 240, 3) | 4-Finger mesh |
 | `tactileSensor_TH.obj` | (240, 240, 3) | Thumb mesh |
 
-## Usage
+## ▶️ Usage
 
 ```bash
 # Downsample for faster rendering (keep every N-th point along each axis)
 python script/visualize.py --path wave_01 --down-sample 8
 ```
 
-## Preview
+## 🚀 Preview
 
 ![visualize](doc/example.jpeg)
